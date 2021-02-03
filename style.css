@@ -128,7 +128,7 @@ ol, ul, li {
 }
 
 .goggles-bookmark span.label:after {
-  content: "Drag and drop me in your bookmark bar";
+  content: "Drag me to your bookmark bar";
   position: absolute;
   top: calc(50% - .75rem);
   left: -7.3rem;
