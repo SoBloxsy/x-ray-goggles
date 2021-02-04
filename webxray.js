@@ -186,7 +186,7 @@ var JSON = {
 };
 
 var defaultLang = "en-US",
-	defaultURI = "https://sobloxsy.github.io/x-ray-goggles" + "/" + defaultLang;
+	defaultURI = "https://x-ray-goggles.mouse.org" + "/" + defaultLang;
 
 var webxrayScript = document.querySelector(".webxray"),
 	baseURI = baseURI = webxrayScript.getAttribute("data-baseuri") || defaultURI,
@@ -10046,9 +10046,9 @@ var Webxray = (function() {
     baseURI: "",
     cssURL: "webxray.css",
     preferencesURL: "preferences.html",
-    easyRemixDialogURL: "https://sobloxsy.github.io/x-ray-goggles/" + xray.lang + "/easy-remix-dialog/index.html",
-    uprootDialogURL: "https://sobloxsy.github.io/x-ray-goggles/" + xray.lang + "/uproot-dialog.html",
-    helpDialogURL: "https://sobloxsy.github.io/x-ray-goggles/" + xray.lang + "/help.html",
+    easyRemixDialogURL: "https://x-ray-goggles.mouse.org/" + xray.lang + "/easy-remix-dialog/index.html",
+    uprootDialogURL: "https://x-ray-goggles.mouse.org/" + xray.lang + "/uproot-dialog.html",
+    helpDialogURL: "https://x-ray-goggles.mouse.org/" + xray.lang + "/help.html",
     hackpubInjectionURL: "published-hack/injector.js",
     pluginURLs: [],
     hackpubURL: "",
