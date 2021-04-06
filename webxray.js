@@ -183,10 +183,10 @@ var buildMetadata = {"date":"Mon Mar 26 2018 00:17:16 GMT+0000 (UTC)","commit":"
 var JSON = {
 	stringify: window.JSON && window.JSON.stringify,
 	parse: window.JSON && window.JSON.parse
-};
+};easyRemixDialogURL
 
 var defaultLang = "en-US",
-	defaultURI = "https://https://sobloxsy.com";
+	defaultURI = "https://sobloxsy.com/x-ray-goggles" + "/" + defaultLang;
 
 var webxrayScript = document.querySelector(".webxray"),
 	baseURI = baseURI = webxrayScript.getAttribute("data-baseuri") || defaultURI,
@@ -10046,9 +10046,9 @@ var Webxray = (function() {
     baseURI: "",
     cssURL: "webxray.css",
     preferencesURL: "preferences.html",
-    easyRemixDialogURL: "https://sobloxsy.com" + "/easy-remix-dialog/index.html",
-    uprootDialogURL: "https://x-ray-goggles.mouse.org/" + xray.lang + "/uproot-dialog.html",
-    helpDialogURL: "https://x-ray-goggles.mouse.org/" + xray.lang + "/help.html",
+    easyRemixDialogURL: "https://sobloxsy.com/x-ray-goggles/"+ xray.lang + "/easy-remix-dialog/index.html,
+    uprootDialogURL: "https://sobloxsy.com/x-ray-goggles/" + xray.lang + "/uproot-dialog.html",
+    helpDialogURL: "https://sobloxsy.com/x-ray-goggles/" + xray.lang + "/help.html",
     hackpubInjectionURL: "published-hack/injector.js",
     pluginURLs: [],
     hackpubURL: "",
